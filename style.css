@@ -19,6 +19,8 @@ body *{
 #container{
   width: 360px;
   margin: 56px auto 0px;
+  padding: 0 24px;
+
 }
 
 #profile{
@@ -56,4 +58,11 @@ ul li a{
   -webkit-backdrop-filter: blur(4px);
   text-decoration: none;
   font-weight: 500;
+
+  transition: background 1s;
+}
+
+ul li a:hover{
+  background: rgba(255, 255, 255, 0.05);
+   border: 1px solid white;
 }
